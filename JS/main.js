@@ -1,6 +1,5 @@
-/*THE NAV-LIST*/
 document.addEventListener("DOMContentLoaded", () => {
-
+    /*THE NAV-LIST*/
     const toggleButton = document.getElementById("nav-toggle");
     const closeButton = document.querySelector(".logo-bookmark .fa-xmark");
     const toggleMenu = document.getElementById("toggled-list");
@@ -29,23 +28,25 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+
+    /*THE FEATUERS SECTION*/
     const featureLinks = document.querySelectorAll(".features-links a");
     const featureSections = document.querySelectorAll(".feature-section");
 
     featureLinks.forEach((link, index) => {
         link.addEventListener("click", (event) => {
-            event.preventDefault(); // Prevent the default anchor behavior
+            event.preventDefault(); 
 
-            // Remove 'active' class from all links
+            //Remove 'active' class from all links
             featureLinks.forEach(link => link.classList.remove("active"));
 
-            // Add 'active' class to the clicked link
+            //Add 'active' class to the clicked link
             link.classList.add("active");
 
-            // Hide all sections
+            //Hide all sections
             featureSections.forEach(section => section.classList.remove("active"));
 
-            // Show the corresponding section
+            //Show the corresponding section
             featureSections[index].classList.add("active");
         });
     });
