@@ -21,7 +21,10 @@ body{
     box-sizing: border-box;
 }
 
-
+h1, p{
+    margin: 0;
+    padding: 0;
+}
 /*=================HEADER=================*/
 #header{
     display: flex;
@@ -66,6 +69,8 @@ a{
     border-radius: 5px;
     border: 1px solid var(--Soft-Red);
     color: red;
+    box-shadow: 2px 2px 2px var(--Grayish-Blue);
+    transition: all 0.3s ease-in-out;
 }
 .nav-menu .nav-item:last-child .nav-link:hover {
     color: white;
@@ -186,4 +191,169 @@ a{
     }
 }
 
-/*================================================================================*/
+/*BOOKMARK*/
+.bookmark{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 150px;
+}
+.bookmark-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    text-align: left;
+    width: 30%;
+    margin-left: 150px;    
+}
+.bookmark-header{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.bookmark-description{
+    color: var(--Grayish-Blue);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.bookmark-img{
+    width: 30%;
+    height: 300px;
+    background-color: var(--Soft-Blue);
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    position: relative;
+}
+.hero-img{
+    width: 550px;
+    position: absolute;
+    top: -100px;
+    left: -150px;
+}
+/*==================BUTTONS=================*/
+.btn{
+  color: white;
+  background-color: var(--Soft-Blue);
+  padding: 10px 25px;
+  border: 1px solid var(--Soft-Blue);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  box-shadow: 2px 2px 2px var(--Grayish-Blue);
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: white;
+    color: var(--Soft-Blue);
+}
+.book-btn{
+    color: var(--Very-Dark-Blue);
+    background-color: hsl(230, 29%, 92%);
+    border: 1px solid transparent;
+}
+.book-btn:hover{
+    border: 1px solid var(--Very-Dark-Blue);
+    color: var(--Very-Dark-Blue);
+    background-color: white;
+}
+/*features*/
+.features{
+    margin: 100px auto;
+    text-align: center;
+}
+.features-description{
+    width: 40%;
+    padding-inline: 50px;
+    text-align: center;
+    margin: auto;
+    color: var(--Grayish-Blue);
+    line-height: 1.5;
+}
+.features-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:70px;
+    margin-block: 4em;
+    color: var(--Grayish-Blue);
+    border-bottom: 1px solid var(--Grayish-Blue);
+    width: 50%;
+    margin-inline: auto;
+    position: relative;
+}
+.features-links a{
+    color: var(--Grayish-Blue);
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.features-links a:hover{
+    color: var(--Soft-Red);
+}
+
+.features-links a.active::before {
+    content: "";
+    position: absolute;
+    bottom: -31px; 
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--Soft-Red);
+}
+
+.feature-section.active {
+    display: flex;
+}
+.feature-section{
+    display: none;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+    margin-block: 200px;
+    width: 100%;
+}
+.marking-img{
+    width: 30%;
+    height: 300px;
+    background-color: var(--Soft-Blue);
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: relative;
+}
+.features-tab-1{
+    width: 500px;
+    position: absolute;
+    top: -100px;
+    right:  -150px;
+}
+.marking-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    text-align: left;
+    width: 30%;
+    height: 300px;
+    margin-right: 150px;  
+}
+.marking-header{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.marking-description{
+    color: var(--Grayish-Blue);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.tab-2{
+    width: 450px;
+    position: absolute;
+    top: -100px;
+    right:  -150px;
+}
+/*=======================================*/
