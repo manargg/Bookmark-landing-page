@@ -1,0 +1,14 @@
+.install{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    justify-self: center;
+}
+.install p{
+    color: var(--Grayish-Blue);
+}
+
+.boxes{
+    display: grid;
+}
