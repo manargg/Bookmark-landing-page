@@ -203,7 +203,6 @@ a{
     align-items: flex-start;
     justify-content: space-between;
     margin-block: 150px;
-    background-color: rebeccapurple;
 }
 .bookmark-content{
     display: flex;
@@ -383,7 +382,8 @@ a{
     justify-content:flex-start;
     text-align: left;
     width: 40%;
-    margin-left: 150px;    
+    margin-left: 150px;  
+  
 }
 .bookmark-header{
     font-size: var(--heading-1);
