@@ -196,13 +196,14 @@ a{
     }
 }
 
-/*BOOKMARK*/
+/*====================BOOKMARK=================*/
 .bookmark{
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     margin-block: 150px;
+    background-color: rebeccapurple;
 }
 .bookmark-content{
     display: flex;
@@ -366,79 +367,3 @@ a{
     right:  -150px;
 }
 /*=======================================*/
-
-/*========== Downlaod ==========*/
-.install{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 40%;
-    justify-self: center;
-}
-
-.boxes{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    text-align: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-.boxes p{
-    color: var(--Grayish-Blue);
-}
-.box__1{
-    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin-left: 150px;
-    padding-top: 40px;
-    margin-top: -40px;
-    margin-bottom: 80px;
-}
-.dotted_line{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-top: dotted 4px rgb(180, 180, 180); 
-}
-.box__2{
-    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding-top: 40px;
-    margin-bottom: 40px;
-}
-.box__3{
-    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin-right: 150px;
-    padding: 40px 1px 30px 1px;
-    margin-top: 40px;
-}
-.boxes a{
-    text-decoration: none;
-    color: white;
-    background-color: var(--Soft-Blue);
-    border-radius: 5px;
-    padding: 15px 20px 15px 20px;
-    box-shadow: 0 4px 8px;
-}
-.boxes a:hover{
-    background-color: white;
-    color: var(--Soft-Blue);
-    border: 2px solid var(--Soft-Blue);
-}
-
-
-/*========== Questions ==========*/
-
-.q_title{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 40%;
-    justify-self: center;
-}
-.q_title p{
-    color: var(--Grayish-Blue);
-}
