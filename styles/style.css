@@ -375,7 +375,6 @@ a{
     align-items: flex-start;
     justify-content: space-between;
     margin-block: 150px;
-    background-color: rebeccapurple;
 }
 .bookmark-content{
     display: flex;
