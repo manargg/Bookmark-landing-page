@@ -9,6 +9,11 @@
 /*Neutral*/
 --Grayish-Blue: hsl(229, 8%, 60%);
 --Very-Dark-Blue: hsl(229, 31%, 21%);
+
+/*FONT SIZE*/
+--heading-1: 2.35em;
+--heading-2: 2em;
+
 }
 
 body{
@@ -195,7 +200,7 @@ a{
 .bookmark{
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin-block: 150px;
 }
@@ -205,11 +210,11 @@ a{
     align-items: flex-start;
     justify-content:flex-start;
     text-align: left;
-    width: 30%;
+    width: 40%;
     margin-left: 150px;    
 }
 .bookmark-header{
-    font-size: 2em;
+    font-size: var(--heading-1);
     margin-bottom: 20px;
 }
 .bookmark-description{
@@ -262,8 +267,11 @@ a{
     margin: 100px auto;
     text-align: center;
 }
+.features-header{
+    font-size: var(--heading-2);
+}
 .features-description{
-    width: 40%;
+    width: 43%;
     padding-inline: 50px;
     text-align: center;
     margin: auto;
@@ -349,6 +357,7 @@ a{
     color: var(--Grayish-Blue);
     line-height: 1.5;
     margin-bottom: 30px;
+    text-align: justify;
 }
 .tab-2{
     width: 450px;
