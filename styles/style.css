@@ -367,3 +367,46 @@ a{
     right:  -150px;
 }
 /*=======================================*/
+@media (max-width: 1350px) {
+    /*====================BOOKMARK=================*/
+.bookmark{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-block: 150px;
+    background-color: rebeccapurple;
+}
+.bookmark-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    text-align: left;
+    width: 40%;
+    margin-left: 150px;    
+}
+.bookmark-header{
+    font-size: var(--heading-1);
+    margin-bottom: 20px;
+}
+.bookmark-description{
+    color: var(--Grayish-Blue);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.bookmark-img{
+    width: 30%;
+    height: 300px;
+    background-color: var(--Soft-Blue);
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    position: relative;
+}
+.hero-img{
+    width: 550px;
+    position: absolute;
+    top: -100px;
+    left: -150px;
+}
+}
