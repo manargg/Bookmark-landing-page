@@ -98,7 +98,7 @@ a{
 
 .toggled-list{
    visibility: hidden;
-    position: absolute;
+    position: fixed;
     top: 0;
     left:0;
     background-color:  hsl(229, 31%, 21%, 0.9);
