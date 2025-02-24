@@ -5,19 +5,22 @@ document.addEventListener("DOMContentLoaded", () => {
     const toggleMenu = document.getElementById("toggled-list");
     const navLinks = document.querySelectorAll(".nav-link");
     const header = document.querySelector("#header a");
+    const body = document.body;
 
 
     toggleButton.addEventListener("click", () =>{
         toggleMenu.classList.add("show-menu");
         header.classList.add("hidden");
         toggleButton.classList.add("hidden");
+        body.classList.add("no-scroll"); 
+
     });
     
     closeButton.addEventListener("click", () =>{
         toggleMenu.classList.remove("show-menu");
         header.classList.remove("hidden");
         toggleButton.classList.remove("hidden");
-
+        body.classList.remove("no-scroll"); 
     });
     navLinks.forEach(link =>{
         link.addEventListener("click", () =>{
