@@ -108,7 +108,7 @@ a{
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    padding-block: 80px 100px;
+    padding-block: 50px 100px;
     z-index: 10;
 }
 .toggled-list.show-menu{
