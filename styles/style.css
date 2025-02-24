@@ -534,7 +534,7 @@ a{
     flex-direction: column;
     row-gap: 30px;
     text-align: center;
-    margin-block: 150px;
+    margin-block: 100px;
     width: 100%;
 }
 .marking-img{
@@ -601,8 +601,8 @@ a{
   }
 /*features*/
 .features{
-    margin: 100px auto;
     text-align: center;
+    margin-block: 20px;
 }
 .features-content{
     width:80%;
